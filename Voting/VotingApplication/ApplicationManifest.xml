@@ -9,7 +9,11 @@
     </ServiceManifestImport>
     <DefaultServices>
       <Service Name="VotingDataService">
+<<<<<<< HEAD
          <StatefulService MinReplicaSetSize="1" ServiceTypeName="VotingDataServiceType" TargetReplicaSetSize="1">
+=======
+         <StatefulService MinReplicaSetSize="3" ServiceTypeName="VotingDataServiceType" TargetReplicaSetSize="3">
+>>>>>>> 57a6e4995f9e2321e27cd622fe0c3e14f8a71ef6
             <UniformInt64Partition HighKey="9223372036854775807" LowKey="-9223372036854775808" PartitionCount="1"/>
          </StatefulService>         
       </Service>      
